@@ -1,6 +1,6 @@
 .Contact {
-  height: 100dvh;
-  width: 100dvw;
+  height: 100%;
+  width: 100%;
   padding: var(--page-padding);
   background-color: var(--project-dark-blue);
   color: var(--project-white);

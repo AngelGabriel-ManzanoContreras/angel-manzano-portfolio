@@ -1,10 +1,11 @@
 :root {
   --project-white: #F4EEE3;
   --project-gray: #434443;
+  --project-dark-gray:  #323332;
   --project-purple: #846BCA;
 
-  --project-blue: #8794C0;
-  --project-light-blue: #5A6794;
+  --project-light-blue: #8794C0;
+  --project-blue: #5A6794;
   --project-dark-blue: #1C2135;
 
   --box-padding: 1rem 1.25rem;
@@ -17,13 +18,29 @@
   box-sizing: border-box;
 }
 
-html, body {
-  width: 100dvw;
-  height: 100dvh;
+html, body { /* Im removing this because it makes an x overflow*/
+  /* width: 100dvw;
+  height: 100dvh; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   scroll-behavior: smooth;
 
   background-color: var(--project-dark-blue);
+  scrollbar-color: var(--project-light-blue) var(--project-gray);
+  scrollbar-arrow-color: var(--project-light-blue);
+}
+
+::-webkit-scrollbar {
+  width: 1rem; /* Mostly for vertical scrollbars */
+  height: 1rem; /* Mostly for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-thumb { /* Foreground */
+  background: var(--project-light-blue);
+}
+
+::-webkit-scrollbar-track { /* Background */
+  background: var(--project-gray);
+  border-radius: 0;
 }
 
 a {
@@ -31,7 +48,7 @@ a {
   color: inherit;
 }
 
-.no-select, button {
+.no-select, button, img, summary {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
