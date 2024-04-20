@@ -1,14 +1,12 @@
 import React from 'react'
 
-import Navbar from '../components/navbar'
+import Header from '../Header/Header'
 
-const Template = ( {children, current} ) => {
+export default function Layout({ children }) {
   return (
     <>
-      <Navbar page={current} />
+      <Header/>
       {children}
     </>
   )
 }
-
-export default Template

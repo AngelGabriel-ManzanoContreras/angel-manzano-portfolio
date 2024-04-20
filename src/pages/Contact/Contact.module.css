@@ -1,0 +1,44 @@
+.Contact {
+  height: 100dvh;
+  width: 100dvw;
+  padding: var(--page-padding);
+  background-color: var(--project-dark-blue);
+  color: var(--project-white);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact__Header {
+  width: 50%;
+}
+
+.Contact__Header > h1 {
+  font-size: clamp(3rem, 10vw, 5rem);
+  letter-spacing: .5rem;
+}
+
+.Contact__Icons {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 760px) {
+  .Contact {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .Contact__Header {
+    width: 100%;
+    text-align: center;
+  }
+  .Contact__Icons {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

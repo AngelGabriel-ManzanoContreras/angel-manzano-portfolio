@@ -1,4 +1,4 @@
-#root {
+:root {
   --project-white: #F4EEE3;
   --project-gray: #434443;
   --project-purple: #846BCA;
@@ -7,7 +7,7 @@
   --project-light-blue: #5A6794;
   --project-dark-blue: #1C2135;
 
-  --box-padding: 1rem;
+  --box-padding: 1rem 1.25rem;
   --page-padding: 2rem;
 }
 
@@ -18,10 +18,12 @@
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
+  width: 100dvw;
+  height: 100dvh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   scroll-behavior: smooth;
+
+  background-color: var(--project-dark-blue);
 }
 
 a {

@@ -1,0 +1,23 @@
+.Tool {
+  min-height: 100px;
+  width: 100px;
+  text-align: center;
+  transition: 1s;
+}
+
+.Tool__Figure {
+  height: 100px;
+  width: 100px;
+}
+
+.Tool__Image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.Tool__Title {
+  margin-top: .25rem;
+  font-weight: bold;
+  text-align: center;
+}

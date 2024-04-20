@@ -1,0 +1,70 @@
+.Sidebar {
+  height: 100%;
+  padding: 10px 1rem;
+  background-color: #1C2135;
+  position: fixed;
+  color: #e4eee3;
+  right: -15rem;
+  transition: .5s;
+  z-index: 2;
+  box-shadow: 0px 0px 5px #212221;
+}
+
+.Sidebar__Active {
+  right: -3px;
+}
+
+.Sidebar__MenuButton {
+  display: none;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.Sidebar__MenuButton:hover {
+  filter: drop-shadow(0px 0px 5px #212221);
+}
+
+.Sidebar__MenuButton > img {
+  height: 80%;
+}
+
+.Sidebar__CloseButton {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.Sidebar__CloseButton:hover {
+  filter: drop-shadow(0px 0px 5px #212221);
+}
+
+.Sidebar__CloseButton > img {
+  height: 80%;
+}
+
+.Sidebar li {
+  list-style: none;
+  margin: 1rem;
+  width: 10rem;
+  letter-spacing: .25rem;
+}
+
+.Sidebar > section {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 670px) {
+  .Sidebar__MenuButton {
+    display: flex;
+  }
+}

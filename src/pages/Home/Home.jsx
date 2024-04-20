@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-//import Template from './template'
+import Layout from '../../components/Layout/Layout.jsx'
 //import NormalButton from '../components/normalButton'
 
 import styles from './Home.module.css'
@@ -11,8 +11,7 @@ export default function Home() {
   }, [])
   
   return (
-  //  <Template current={4}>
-  <>
+    <Layout>
       <section className='home-sect'>
         <section id='home-name-sect'>
           <h1>Angel Manzano</h1>
@@ -24,7 +23,6 @@ export default function Home() {
           <NormalButton link={true} text='Contact' href='contact'/> */}
         </section>
       </section>
-      </>
-    //</Template>
+    </Layout>
   )
 }
