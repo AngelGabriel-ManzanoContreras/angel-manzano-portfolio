@@ -1,85 +1,73 @@
-.home-sect {
-  height: 100%;
-  width: 100%;
-
-  /*background-color: #a652bb;*/
-  background-color: #434443;
+.Home {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: var(--project-gray);
   margin-top: 0;
-  padding: 20px;
+  padding: var(--page-padding);
   display: flex;
   align-items: center;
 }
 
-.home-sect > section {
+.Home > section {
   width: 50%;
   height: 50%;
   float: left;
-
-  display: flex;
-  justify-content: center;
 }
 
-.home-sect .normal-btn {
-  width: 90%;
-  margin: auto;
-}
-
-#home-btn-sect {
-  display: grid;
-  grid-template-columns: 90%;
-  text-align: center;
-}
-
-#home-name-sect {
+.Home__Introduction {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
-  color: #e4eee3;
+  gap: 1rem;
+
+  padding: var(--box-padding);
+  color: var(--project-white);
 }
 
-#home-name-sect > h1 {
-  font-size: clamp(3.5rem, 5vw, 5rem);
+.Home__Introduction > h1 {
+  font-size: clamp(3.5rem, 10vw, 5rem);
   transition: 1s;
-  margin-left: 20px;
-  letter-spacing: 7px;
+  letter-spacing: .5rem;
 
   width: fit-content;
 }
 
-#home-name-sect > h3 {
+.Home__Introduction > h3 {
   letter-spacing: 3px;
-  margin: 10px 0 0 30px;
   font-style: italic;
 }
 
-@media screen and (max-width: 850px) {
-  .home-sect {
-      flex-direction: column;
-  }
-  
-  #home-name-sect {
-      width: 100%;
-      align-items: center;
-  }
-
-  #home-name-sect > h3 {
-      margin: 10px 0 0 0;
-  }
-  
-  #home-name-sect > h1 {
-      text-align: center;
-      padding: 0;
-      margin: 0;
-  }
-
-  #home-btn-sect {
-      width: 80%;
-  }
+.Home__Buttons {
+  padding: var(--box-padding);
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
 }
 
-@media screen and (max-width: 620px) {
-  #home-btn-sect {
-      width: 100%;
+.Home__Buttons > button {
+  width: 90% !important;
+}
+
+@media screen and (max-width: 850px) {
+  .Home {
+    flex-direction: column;
+  }
+  
+  .Home__Introduction {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .Home__Introduction > h1 {
+    text-align: center;
+  }
+
+  .Home__Buttons {
+    width: 100% !important;
+  }
+
+  .Home__Buttons > button {
+    width: 80% !important;
   }
 }

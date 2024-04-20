@@ -14,23 +14,27 @@ export default function Sidenav({ links = [] }) {
 
   return (
     <>
-      <figure className={styles.Sidebar__MenuButton}>
+      <figure className={styles.Sidebar__Button}>
         <img src={menu} alt='menu icon' onClick={ openSidebar } />
       </figure>
 
       <nav className={sidebarStyle}>
 
-        <section>
-          <figure className={styles.Sidebar__CloseButton}>
-            <img src={x_icon} alt='close icon' onClick={ closeSidebar } />
-          </figure>
+        <section className={styles.Sidebar__Menu}>
+          <section>
+            <figure className={styles.Sidebar__Button}>
+              <img src={x_icon} alt='close icon' onClick={ closeSidebar } />
+            </figure>
+          </section>
+          
+          <ul>
+            {
+              links.map( ( link, i ) => <li key={i}><NavLink {...link}/></li> )
+            }
+          </ul>
         </section>
-        
-        <ul>
-          {
-            links.map( ( link, i ) => <li key={i}><NavLink {...link}/></li> )
-          }
-        </ul>
+
+        {/* TODO: Place Language options */}
 
       </nav>
     </>

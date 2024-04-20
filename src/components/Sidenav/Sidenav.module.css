@@ -1,10 +1,12 @@
 .Sidebar {
-  height: 100%;
+  height: 100dvh;
   padding: 10px 1rem;
   background-color: #1C2135;
-  position: fixed;
+  position: absolute;
+  align-self: self-start;
   color: #e4eee3;
   right: -15rem;
+  top: 0;
   transition: .5s;
   z-index: 2;
   box-shadow: 0px 0px 5px #212221;
@@ -14,40 +16,22 @@
   right: -3px;
 }
 
-.Sidebar__MenuButton {
+.Sidebar__Button {
   display: none;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: .5s;
 }
 
-.Sidebar__MenuButton:hover {
+.Sidebar__Button:hover {
   filter: drop-shadow(0px 0px 5px #212221);
 }
 
-.Sidebar__MenuButton > img {
-  height: 80%;
-}
-
-.Sidebar__CloseButton {
-  height: 45px;
-  width: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: .5s;
-}
-
-.Sidebar__CloseButton:hover {
-  filter: drop-shadow(0px 0px 5px #212221);
-}
-
-.Sidebar__CloseButton > img {
-  height: 80%;
+.Sidebar__Button > img {
+  height: 100%;
 }
 
 .Sidebar li {
@@ -57,14 +41,21 @@
   letter-spacing: .25rem;
 }
 
-.Sidebar > section {
+.Sidebar__Menu {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   width: 100%;
 }
 
 @media screen and (max-width: 670px) {
-  .Sidebar__MenuButton {
+  .Sidebar__Button {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .Sidebar {
+    display: none;
   }
 }

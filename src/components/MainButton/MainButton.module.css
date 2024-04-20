@@ -1,0 +1,29 @@
+.MainButton {
+  padding: var(--box-padding);
+  width: 200px;
+  height: fit-content;
+  
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: inherit;
+
+  background-color: var(--project-purple);
+  border: 3px var(--project-purple) solid;
+  color: var(--project-white);
+  cursor: pointer;
+
+  transition: 1s;
+}
+
+.MainButton:hover {
+  border-color: var(--project-white);
+}
+
+.MainButton:active {
+  border-color: var(--project-purple);
+  color: var(--project-purple);
+  background-color: var(--project-white);
+  transition: 0s;
+}
