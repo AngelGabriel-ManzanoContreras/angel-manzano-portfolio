@@ -1,0 +1,85 @@
+.home-sect {
+  height: 100%;
+  width: 100%;
+
+  /*background-color: #a652bb;*/
+  background-color: #434443;
+  margin-top: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.home-sect > section {
+  width: 50%;
+  height: 50%;
+  float: left;
+
+  display: flex;
+  justify-content: center;
+}
+
+.home-sect .normal-btn {
+  width: 90%;
+  margin: auto;
+}
+
+#home-btn-sect {
+  display: grid;
+  grid-template-columns: 90%;
+  text-align: center;
+}
+
+#home-name-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: #e4eee3;
+}
+
+#home-name-sect > h1 {
+  font-size: clamp(3.5rem, 5vw, 5rem);
+  transition: 1s;
+  margin-left: 20px;
+  letter-spacing: 7px;
+
+  width: fit-content;
+}
+
+#home-name-sect > h3 {
+  letter-spacing: 3px;
+  margin: 10px 0 0 30px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 850px) {
+  .home-sect {
+      flex-direction: column;
+  }
+  
+  #home-name-sect {
+      width: 100%;
+      align-items: center;
+  }
+
+  #home-name-sect > h3 {
+      margin: 10px 0 0 0;
+  }
+  
+  #home-name-sect > h1 {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+  }
+
+  #home-btn-sect {
+      width: 80%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #home-btn-sect {
+      width: 100%;
+  }
+}
