@@ -1,0 +1,86 @@
+.Skills {
+  min-height: 100%;
+  width: 100%;
+  padding-top: 70px !important;
+  padding: var(--page-padding);
+  color: var(--project-white);
+  background-color: var(--project-blue);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Skills__Title {
+  font-size: 3rem;
+  letter-spacing: 7px;
+  transition: 1s;
+}
+
+.Skills__Showcase {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skills__Showcase details[open],
+.Skills__Showcase details[open] summary {
+  animation: skillsShowUP 1s ease-out;
+  margin: 1rem;
+}
+
+.Skills__Container {
+  margin: .5rem;
+  height: 100%;
+  width: 50%;
+  max-width: 50%;
+  transition: 1s;
+  width: calc(50% - 1rem);
+}
+
+.Skills__Container summary {
+  cursor: pointer;
+  list-style: none;
+  transition: margin 150ms ease-out;
+}
+
+.Skills__Container summary > h3 {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: center;
+  transition: 1s;
+}
+
+.Skills__List {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Skills__Showcase {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Skills__Container,
+  .Skills__Showcase details[open],
+  .Skills__Showcase details[open] summary {
+    width: 100% !important;
+  }
+}
+
+@keyframes skillsShowUP {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

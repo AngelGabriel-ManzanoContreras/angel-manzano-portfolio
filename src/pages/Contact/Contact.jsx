@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 import Layout from '../../components/Layout/Layout.jsx'
-import Tool from '../../components/Tool/Tool.jsx'
+import Icon from '../../components/Icon/Icon.jsx'
 
 import styles from './Contact.module.css'
 import { profiles } from '../../utils/data.js'
@@ -22,7 +22,7 @@ const Contact = () => {
         <section className={styles.Contact__Icons}>
           {
             profiles.map( ( profile, i ) => 
-            <Tool
+            <Icon
               key={i}
               {...profile}
             />

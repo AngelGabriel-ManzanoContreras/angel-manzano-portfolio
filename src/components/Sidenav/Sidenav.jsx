@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 import NavLink from '../NavLink/NavLink.jsx'
-import menu from '../../assets/icons8-menu-100.png'
-import x_icon from '../../assets/icons8-x-96.png'
+import menu from '../../assets/icons/icons8-menu-100.png'
+import x_icon from '../../assets/icons/icons8-x-96.png'
 import styles from './Sidenav.module.css'
 
 export default function Sidenav({ links = [] }) {

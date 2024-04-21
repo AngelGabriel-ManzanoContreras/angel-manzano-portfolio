@@ -1,22 +1,22 @@
-.Tool {
+.Icon {
   min-height: 100px;
   width: 100px;
   text-align: center;
   transition: 1s;
 }
 
-.Tool__Figure {
+.Icon__Figure {
   height: 100px;
   width: 100px;
 }
 
-.Tool__Image {
+.Icon__Image {
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
 }
 
-.Tool__Title {
+.Icon__Title {
   margin-top: .25rem;
   font-weight: bold;
   text-align: center;

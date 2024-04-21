@@ -3,8 +3,8 @@ import React, { useEffect } from 'react'
 import Layout from '../../components/Layout/Layout.jsx'
 import Introduction from '../../sections/Introduction/Introduction.jsx'
 import Values from '../../sections/Values/Values.jsx'
-// import SkillsSect from '../components/sections/skillsSect'
-// import EducationSect from '../components/sections/educationSect'
+import Skills from '../../sections/Skills/Skills.jsx'
+import Education from '../../sections/Education/Education.jsx'
 import Contact from '../Contact/Contact.jsx'
 
 export default function AboutMe() {
@@ -17,10 +17,10 @@ export default function AboutMe() {
       <Introduction />
 
       <Values />
-      {/*
-      <SkillsSect />
 
-      <EducationSect />  */}
+      <Skills />
+
+      <Education />
 
       <Contact />
     </Layout>
