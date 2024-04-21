@@ -1,7 +1,7 @@
 # Angel Manzano - Portfolio
 
 ## Feedback
-I would be pleased if you give me feedback about my code, so I will be able to gain insights from other and keep improving. You could do so via:
+I would be pleased if you give me feedback about my code, so I will be able to gain insights from others and keep improving. You could do so via:
 - Github Issues
 - [Linkedin](https://www.linkedin.com/in/angel-gabriel-manzano-contreras/)
 - [Mail](mailto:amanzanocontreras@gmail.com)
@@ -19,14 +19,19 @@ I would be pleased if you give me feedback about my code, so I will be able to g
 
 This project is deployed to netlify manually.
 
-To build this project run:
+To be able to start working on this project run:
 ```bash
-npm run build
+npm i
 ```
 
 To run this project on dev run:
 ```bash
 npm run dev
+```
+
+To build this project run:
+```bash
+npm run build
 ```
 
 ### Backend API
