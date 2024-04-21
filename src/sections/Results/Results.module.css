@@ -1,0 +1,30 @@
+.Results {
+  width: 100%;
+  background-color: var(--project-light-blue);
+  color: var(--project-white);
+  padding-top: 70px !important;
+  padding: var(--page-padding);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.Results__Title {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  transition: 1s;
+}
+
+.Results__Buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .Results__Buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }    
+}

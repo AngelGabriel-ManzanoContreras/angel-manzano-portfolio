@@ -1,0 +1,26 @@
+.SecondaryButton {
+  min-width: 200px;
+  width: fit-content;
+  padding: var(--box-padding);
+  
+  letter-spacing: .5rem;
+  text-align: center;
+  font-weight: bold;
+
+  text-decoration: none;
+  color: var(--project-white);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  transition: .75s;
+}
+
+.SecondaryButton:hover {
+  transform: scale(1.375);
+}
+
+.SecondaryButton:active {    
+  color: var(--project-purple);
+  transition: 0s;
+}

@@ -1,6 +1,7 @@
 .MainButton {
   padding: var(--box-padding);
-  width: 200px;
+  width: fit-content;
+  min-width: 200px;
   height: fit-content;
   
   letter-spacing: .5rem;

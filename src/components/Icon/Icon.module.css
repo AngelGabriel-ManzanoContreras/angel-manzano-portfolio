@@ -8,6 +8,7 @@
 .Icon__Figure {
   height: 100px;
   width: 100px;
+  transition: 1s;
 }
 
 .Icon__Image {
@@ -20,4 +21,17 @@
   margin-top: .25rem;
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .Icon {
+    min-height: 50px;
+    width: 50px;
+  }
+
+  .Icon__Figure {
+    height: 50px;
+    width: 50px;
+  }
+  
 }

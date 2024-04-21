@@ -5,6 +5,7 @@ import github from '../assets/icons/github.svg'
 import figma from '../assets/icons/figma.svg'
 import css from '../assets/icons/css.svg'
 import python from '../assets/icons/python.svg'
+import django from '../assets/icons/django.svg'
 import next from '../assets/icons/nextjs.svg'
 import react_svg from '../assets/icons/react.svg'
 import php from '../assets/icons/Php.svg'
@@ -12,6 +13,19 @@ import html from '../assets/icons/html5.svg'
 import mysql from '../assets/icons/mysql.svg'
 import git from '../assets/icons/git.svg'
 import javascript from '../assets/icons/javascript.svg'
+
+//littleSites
+import littlesites1 from '../assets/imgs/projects/littlesites/littlesites.jpg'
+import littlesites2 from '../assets/imgs/projects/littlesites/littlesites-landing.jpg'
+import littlesites3 from '../assets/imgs/projects/littlesites/littlesites-figma.png'
+import littlesites4 from '../assets/imgs/projects/littlesites/littlesites-figjam.png'
+
+// Makhai
+import makhai1 from '../assets/imgs/projects/makhai/makhai-index.jpeg'
+import makhai2 from '../assets/imgs/projects/makhai/makhai-habitaciones.jpeg'
+import makhai3 from '../assets/imgs/projects/makhai/makhai-eventos.jpeg'
+import makhai4 from '../assets/imgs/projects/makhai/makhai-gestion.jpeg'
+import makhai5 from '../assets/imgs/projects/makhai/makhai-gestion2.jpeg'
 
 export const profiles = [
   {
@@ -213,3 +227,92 @@ export const education = [
     skills: [ 'Creative and Critical Thinking', 'Interpersonal Communication', 'Problem Solving', 'Team Collaboration' ]
   }
 ]
+
+export const projectsData = {
+  'littlesites' : {
+    head : {
+      title: 'LittleSites',
+      slogan: 'Cafesito con pan',
+      img:littlesites2
+    },
+    problem : 'My team and I were looking to address the problem of SMEs (PyMEs) not having a website. We wanted a platform where they could create their own website with a few clicks and a little help from us. We wanted to make it easy for them to have a website and be able to manage it themselves.',
+    task: 'As UI Designer, I had to build an intuitive and pleasant Interface where the users were able to input their information and see their Landing page. Later on, I had to correct some CSS styles to accomplish what was planned and help with the website\'s backend development. Currently, only the Landing page is available, but the rest of the website is under development.',
+    tools: [
+      {
+        name: 'Figma',
+        img: figma
+      },
+      {
+        name: 'CSS3',
+        img: css
+      },
+      {
+        name: 'React',
+        img: react_svg
+      },
+      {
+        name: 'Next',
+        img: next
+      },
+      {
+        name: 'Django',
+        img: django
+      },
+      {
+        name: 'PHP',
+        img: php
+      },
+      {
+        name: 'MySQL',
+        img: mysql
+      },
+      {
+        name: 'Git',
+        img: git
+      },
+      {
+        name: 'Github',
+        img: github
+      }
+    ],
+    results: {
+      proofs: [ littlesites2, littlesites3, littlesites4, littlesites1 ],
+      href: 'https://littlesites.github.io/'
+    }
+  },
+  'makhai' : {
+    head: {
+      title: 'Makhai',
+      slogan: 'Schoolar project',
+      img: makhai1
+    },
+    problem: 'My team and I were asked to build a website for a Hotel where they could show their rooms, events, and activities. Also, make Room reservations and Logistic administration possible.',
+    task: 'As my team\'s Product Owner, I was responsible for structuring the Team\'s backlog, task relegation, and handing deliverables weekly. In addition, I was responsible for debugging and refactoring front-end code, creating the website\'s back-end, and deploying the website.',
+    tools: [
+      {
+        name: 'HTML5',
+        img: html
+      },
+      {
+        name: 'CSS3',
+        img: css
+      },
+      {
+        name: 'Javascript',
+        img: javascript
+      },
+      {
+        name: 'PHP',
+        img: php
+      },
+      {
+        name: 'MySQL',
+        img: mysql
+      }
+    ],
+    results: {
+      proofs: [ makhai1, makhai2, makhai3, makhai4, makhai5 ],
+      href: 'https://hotel-makhai-nayarit.000webhostapp.com/'
+    }
+  }
+}

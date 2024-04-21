@@ -1,8 +1,9 @@
 :root {
-  --project-white: #F4EEE3;
+  --project-white: #E4EEE3;
   --project-gray: #434443;
   --project-dark-gray:  #323332;
   --project-purple: #846BCA;
+  --project-light-purple: #A68DEC;
 
   --project-light-blue: #8794C0;
   --project-blue: #5A6794;
@@ -24,7 +25,7 @@ html, body { /* Im removing this because it makes an x overflow*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   scroll-behavior: smooth;
 
-  background-color: var(--project-dark-blue);
+  background-color: var(--project-dark-gray);
   scrollbar-color: var(--project-light-blue) var(--project-gray);
   scrollbar-arrow-color: var(--project-light-blue);
 }

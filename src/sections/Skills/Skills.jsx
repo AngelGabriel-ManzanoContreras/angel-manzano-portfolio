@@ -33,7 +33,15 @@ const SkillsSect = () => {
           <summary><h3>Technical</h3></summary>
           
           <article className={styles.Skills__List}>
-            {skills.technical.map((skill, i) => <Icon key={i} {...skill} />)}
+            {
+              skills.technical.map(
+                (skill, i) => 
+                <Icon 
+                  key={i}
+                  displayTitle={true}
+                  {...skill}
+                />)
+            }
           </article>
 
         </details>

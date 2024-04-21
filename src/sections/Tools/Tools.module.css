@@ -1,0 +1,24 @@
+.Tools {
+  width: 100%;
+  padding: clamp(20px, 5vw, 40px);
+  background-color: var(--project-blue);
+  color: var(--project-white);
+}
+
+.Tools__Title {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  transition: 1s;
+}
+
+.Tools__List {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+}
+
+@media screen and (max-width: 768px){
+  .Tools__List {
+    grid-template-columns: repeat(auto-fill, 50px);
+  }
+  
+}
