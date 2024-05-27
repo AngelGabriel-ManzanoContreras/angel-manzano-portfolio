@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 import Layout from '../../components/Layout/Layout.jsx'
 import Icon from '../../components/Icon/Icon.jsx'
