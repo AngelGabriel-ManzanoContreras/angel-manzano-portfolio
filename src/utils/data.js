@@ -91,14 +91,6 @@ export const skills = {
       img: react_svg
     },
     {
-      name: 'Next',
-      img: next
-    },
-    {
-      name: 'PHP',
-      img: php
-    },
-    {
       name: 'MySQL',
       img: mysql
     },

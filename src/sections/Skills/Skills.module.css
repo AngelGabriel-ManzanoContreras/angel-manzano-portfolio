@@ -1,8 +1,8 @@
 .Skills {
   min-height: 100dvh;
   width: 100%;
-  padding-top: 70px !important;
   padding: var(--page-padding);
+  padding-top: 70px;
   color: var(--project-white);
   background-color: var(--project-blue);
 
@@ -12,7 +12,7 @@
 
 .Skills__Title {
   font-size: 3rem;
-  letter-spacing: 7px;
+  letter-spacing: .5rem;
   transition: 1s;
 }
 
@@ -25,25 +25,24 @@
   align-items: center;
 }
 
-.Skills__Showcase details[open],
-.Skills__Showcase details[open] summary {
+.Skills__Container[open] {
   animation: skillsShowUP 1s ease-out;
-  margin: 1rem;
 }
 
 .Skills__Container {
-  margin: .5rem;
+  padding: .5rem;
   height: 100%;
   width: 50%;
   max-width: 50%;
   transition: 1s;
-  width: calc(50% - 1rem);
 }
 
 .Skills__Container summary {
+  width: 100%;
   cursor: pointer;
   list-style: none;
   transition: margin 150ms ease-out;
+  margin-bottom: 1rem;
 }
 
 .Skills__Container summary > h3 {
@@ -68,9 +67,9 @@
     justify-content: space-evenly;
   }
   .Skills__Container,
-  .Skills__Showcase details[open],
-  .Skills__Showcase details[open] summary {
+  .Skills__Container[open] {
     width: 100% !important;
+    max-width: unset;
   }
 }
 

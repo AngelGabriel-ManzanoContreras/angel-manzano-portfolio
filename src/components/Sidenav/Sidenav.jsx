@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import NavLink from '../NavLink/NavLink.jsx'
 import menu from '../../assets/icons/icons8-menu-100.png'

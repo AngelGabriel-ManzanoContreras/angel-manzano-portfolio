@@ -1,10 +1,8 @@
-import React from 'react'
-
 import Icon from '../../components/Icon/Icon.jsx'
 import styles from './Skills.module.css'
 import { skills } from '../../utils/data.js'
 
-const SkillsSect = () => {
+export default function SkillsSect() {
   return (
     <section className={styles.Skills}>
 
@@ -50,5 +48,3 @@ const SkillsSect = () => {
     </section>
   )
 }
-
-export default SkillsSect

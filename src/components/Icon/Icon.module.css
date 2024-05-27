@@ -1,8 +1,13 @@
 .Icon {
   min-height: 100px;
-  width: 100px;
+  min-width: 100px;
   text-align: center;
   transition: 1s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Icon__Figure {
@@ -23,7 +28,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
   .Icon {
     min-height: 50px;
     width: 50px;
@@ -34,4 +39,4 @@
     width: 50px;
   }
   
-}
+}*/
