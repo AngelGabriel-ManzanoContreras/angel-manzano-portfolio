@@ -44,11 +44,12 @@
 
 @media screen and (max-width: 750px) {
   .Task {
+    min-height: 100dvh;
     flex-direction: column;
   }
   
   .Task__Description {
-    width: 90%;
+    width: 100%;
   }
 
   .Task__Figure {

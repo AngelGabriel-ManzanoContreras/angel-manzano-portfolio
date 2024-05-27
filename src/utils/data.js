@@ -221,9 +221,9 @@ export const education = [
 ]
 
 export const projectsData = {
-  'littlesites' : {
+  'Sites' : {
     head : {
-      title: 'LittleSites',
+      title: 'Sites',
       slogan: 'Cafesito con pan',
       img:littlesites2
     },
@@ -269,7 +269,7 @@ export const projectsData = {
     ],
     results: {
       proofs: [ littlesites2, littlesites3, littlesites4, littlesites1 ],
-      href: 'https://littlesites.github.io/'
+      href: 'https://github.com/LittleSites/UI-CLIENT-NextJS'
     }
   },
   'makhai' : {

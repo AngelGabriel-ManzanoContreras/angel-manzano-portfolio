@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-/*@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
   .Icon {
     min-height: 50px;
     width: 50px;
@@ -39,4 +39,4 @@
     width: 50px;
   }
   
-}*/
+}
