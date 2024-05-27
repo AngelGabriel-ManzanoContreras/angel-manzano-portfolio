@@ -1,20 +1,21 @@
-/*.NavLink:before {
+.NavLink:before {
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: var(--project-white);
   border-radius: 5px;
   transform: scale(0);
   transition: all .5s ease;
 
-  top: 75%;
+  top: 100%;
+  margin-top: .5rem;
   left: 0;
 }
 
 .NavLink:hover:before {
   transform: scale(1);
-}*/
+}
 
 .NavLink__Active {
   font-weight: bold;

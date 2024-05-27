@@ -35,6 +35,7 @@
 }
 
 .Sidebar li {
+  position: relative;
   list-style: none;
   margin: 1rem;
   width: 10rem;
