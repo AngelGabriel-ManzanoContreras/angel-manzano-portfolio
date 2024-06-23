@@ -15,7 +15,7 @@
   color: var(--project-white);
   cursor: pointer;
 
-  transition: 1s;
+  transition: .75s;
 }
 
 .MainButton:hover {
