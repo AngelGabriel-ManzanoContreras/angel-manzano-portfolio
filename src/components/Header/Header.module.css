@@ -6,15 +6,15 @@
   color: #e4eee3;
   position: fixed;
   z-index: 2;
-  letter-spacing: .25rem;
-
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2px);
 }
 
 .Header > h2 {
   z-index: 1;
+  letter-spacing: .2rem;
 }
