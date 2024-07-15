@@ -1,4 +1,4 @@
-import { icons, makhaiImages, littlesitesImages, externalImages } from './images.js'
+import { icons, makhaiImages, littlesitesImages, buyingTicketsImages, planSmartImages, storeFindingImages, externalImages } from './images.js'
 import { pdfs } from './pdfs.js'
 
 export const profiles = [
@@ -292,7 +292,7 @@ export const projectsData = {
     head : {
       title: 'Buying Tickets',
       slogan: 'Concert tickets app (Coursera project)',
-      img: littlesitesImages[0]
+      img: buyingTicketsImages[3]
     },
     problem : 'We aimed to create a mobile application for purchasing concert tickets that allows users to select their seat at the concert, so that people with any disability can have a better experience.',
     task: 'As UX/UI designer I was responsible for Conducting interviews, paper and digital wireframes, creating low and high-fidelity prototypes, conducting usability studies, accessibility, and design iteration.',
@@ -303,7 +303,7 @@ export const projectsData = {
       },
     ],
     results: {
-      proofs: littlesitesImages,
+      proofs: buyingTicketsImages,
       href: 'https://www.figma.com/design/QQNhvAyPtj7ohtfewnMlW0/Buying-tickets-app?node-id=0-1&t=fmaTfxIGz0ph84Jh-1',
       uxcase : pdfs.buyingTicketsUXCase
     }
@@ -312,7 +312,7 @@ export const projectsData = {
     head : {
       title: 'Store Finding',
       slogan: 'Stores near you (Coursera project)',
-      img: littlesitesImages[0]
+      img: storeFindingImages[2]
     },
     problem : `We aimed to create a website to find stores near you. Especially when you have limited time to move between work and home and you don't have time to run an errand at your favorite store.`,
     task: 'As UX/UI designer I was responsible for Conducting interviews, paper and digital wireframes, creating low and high-fidelity prototypes, conducting usability studies, accessibility, and design iteration.',
@@ -323,7 +323,7 @@ export const projectsData = {
       },
     ],
     results: {
-      proofs: littlesitesImages,
+      proofs: storeFindingImages,
       href: 'https://www.figma.com/design/lFicAqZGrqLK3sPff7qbKB/SECOND-PROJECT-(COURSE-7)?node-id=0-1&t=Xr8gESDBx0sXaZKT-0',
       uxcase : pdfs.storeFindingUXCase
     }
@@ -332,7 +332,7 @@ export const projectsData = {
     head : {
       title: 'Plan Smart',
       slogan: 'Budgeting app (Coursera project)',
-      img: littlesitesImages[0]
+      img: planSmartImages[2]
     },
     problem : 'We are aiming to create a cross-platform app for budgeting. It is mainly aimed at young adults looking to start working on their finances. our objective is to promote personal finances by providing a tool to follow up easily and comfortably and offering you learning recommendations.',
     task: 'As UX/UI designer I was responsible for Conducting interviews, paper and digital wireframes, creating low and high-fidelity prototypes, conducting usability studies, accessibility, and design iteration.',
@@ -343,7 +343,7 @@ export const projectsData = {
       },
     ],
     results: {
-      proofs: littlesitesImages,
+      proofs: planSmartImages,
       href: 'https://www.figma.com/design/DnVnNsg8JiAArAFlOYSeP8/Third-project?node-id=2-4&t=VyUJtMs4kDWezCUr-1',
       uxcase : pdfs.planSmartUXCase
     }

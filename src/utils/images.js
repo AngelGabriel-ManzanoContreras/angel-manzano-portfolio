@@ -32,6 +32,29 @@ import makhai3 from '../assets/imgs/projects/makhai/makhai-eventos.jpeg'
 import makhai4 from '../assets/imgs/projects/makhai/makhai-gestion.jpeg'
 import makhai5 from '../assets/imgs/projects/makhai/makhai-gestion2.jpeg'
 
+// Buying Tickets app
+import buyingTickets1 from '../assets/imgs/projects/buying-tickets/buying-tickets-app--1.png'
+import buyingTickets2 from '../assets/imgs/projects/buying-tickets/buying-tickets-app--2.png'
+import buyingTickets3 from '../assets/imgs/projects/buying-tickets/buying-tickets-app--3.png'
+import buyingTickets4 from '../assets/imgs/projects/buying-tickets/buying-tickets-app--4.png'
+
+// Plan Smart app
+import planSmart1 from '../assets/imgs/projects/plan-smart/plan-smart--1.png'
+import planSmart2 from '../assets/imgs/projects/plan-smart/plan-smart--2.png'
+import planSmart3 from '../assets/imgs/projects/plan-smart/plan-smart--3.png'
+import planSmart4 from '../assets/imgs/projects/plan-smart/plan-smart--4.png'
+import planSmart5 from '../assets/imgs/projects/plan-smart/plan-smart--5.png'
+import planSmart6 from '../assets/imgs/projects/plan-smart/plan-smart--6.png'
+
+// Store Finding
+import storeFinding1 from '../assets/imgs/projects/store-finding/store-finding--1.png'
+import storeFinding2 from '../assets/imgs/projects/store-finding/store-finding--2.png'
+import storeFinding3 from '../assets/imgs/projects/store-finding/store-finding--3.png'
+import storeFinding4 from '../assets/imgs/projects/store-finding/store-finding--4.png'
+import storeFinding5 from '../assets/imgs/projects/store-finding/store-finding--5.png'
+import storeFinding6 from '../assets/imgs/projects/store-finding/store-finding--6.png'
+
+// External images
 const ptech = 'https://pbs.twimg.com/profile_images/1216830335687843845/VteYO_S9_400x400.jpg'
 const udeg = 'https://th.bing.com/th/id/R.f5fc81c37f06c10be4b9ea29063f0e54?rik=XQJSBXiuDLPGXA&riu=http%3a%2f%2fpolitecnica.sems.udg.mx%2frevista%2flineamientos%2fassets%2fimg%2ffind_user.png&ehk=oD5PoLZ%2bCeBYZevld7NDUXsgvh9q5Ic9NK1KoqwOhBo%3d&risl=&pid=ImgRaw&r=0'
 const google_pm = 'https://images.credly.com/images/771cff46-3573-4d12-bfd8-528745f00957/GCC_badge_PGM_1000x1000.png'
@@ -77,6 +100,31 @@ export const makhaiImages = [
     makhai3,
     makhai4,
     makhai5
+]
+
+export const buyingTicketsImages = [
+    buyingTickets1,
+    buyingTickets2,
+    buyingTickets3,
+    buyingTickets4
+]
+
+export const storeFindingImages = [
+    storeFinding1,
+    storeFinding2,
+    storeFinding3,
+    storeFinding4,
+    storeFinding5,
+    storeFinding6
+]
+
+export const planSmartImages = [
+    planSmart1,
+    planSmart2,
+    planSmart3,
+    planSmart4,
+    planSmart5,
+    planSmart6
 ]
 
 export const externalImages = {
