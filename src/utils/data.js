@@ -16,6 +16,11 @@ export const profiles = [
     img: icons.github,
     name: 'GitHub - Angel Gabriel Manzano Contreras',
     link: 'https://github.com/AngelGabriel-ManzanoContreras'
+  },
+  {
+    img: icons.cv_icon,
+    name: 'CV - Angel Gabriel Manzano Contreras',
+    link: pdfs.angelCV
   }
 ]
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './Icon.module.css'
 
 export default function Icon({ link, name, img, displayTitle = false}) {

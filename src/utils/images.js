@@ -65,6 +65,7 @@ const sks_agile = 'https://images.credly.com/size/340x340/images/a972f054-be07-4
 const oreilly_git = 'https://images.credly.com/size/340x340/images/4a35c226-b5a6-49d9-b6e4-fe068a55ca36/798d4a2d-8269-483c-bd4b-85bf49473523.png'
 const sks_workingInADigitalWorld = 'https://images.credly.com/size/340x340/images/4f76c627-c180-49ae-a5a0-742885eef581/Working_in_a_Digital_World-_Professional_Skills.png'
 const ccna_itn = 'https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png'
+const cv_icon = 'https://cdn2.iconfinder.com/data/icons/human-resource-1/50/36-1024.png'
 
 export const icons = {
     linkedin,
@@ -84,7 +85,8 @@ export const icons = {
     typescript,
     java,
     golang,
-    slack
+    slack,
+    cv_icon
 }
 
 export const littlesitesImages = [
