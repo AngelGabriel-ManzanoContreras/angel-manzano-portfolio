@@ -158,13 +158,13 @@ export const education = [
     org: 'Google - Coursera',
     current: true,
     image: externalImages.google_pm,
-    skills: [ 'Project Management', 'Project Planning', 'Project Scheduling', 'Project Budgeting' ]
+    skills: [ 'Project Management', 'Project Planning', 'Project Scheduling', 'Agile Project Management' ]
   },
   {
     cert: 'Google Professional Certificate User Exeprience (UX) Design',
     org: 'Google - Coursera',
     image: externalImages.google_ux,
-    skills: [ 'User Experience', 'User Research', 'User-centered Design', 'User Interface' ]
+    skills: [ 'User Experience', 'User Research', 'User-centered Design', 'User Interface Design' ]
   },
   {
     cert: 'Git Essentials',
