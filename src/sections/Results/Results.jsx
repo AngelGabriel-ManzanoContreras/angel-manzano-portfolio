@@ -9,7 +9,7 @@ export default function Results({ href, proofs, title, uxcase }) {
 
   return (
     <section className={styles.Results}>
-      <h2 className={styles.Results__Title}>The final result was...</h2>
+      <h2 className={styles.Results__Title}>Work samples</h2>
 
       <Carousel list={proofs} title={title} />
       
