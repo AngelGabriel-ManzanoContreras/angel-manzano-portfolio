@@ -1,5 +1,3 @@
-import React from 'react'
-
 import MainButton from '../../components/MainButton/MainButton.jsx'
 import Carousel from '../../components/Carousel/Carousel.jsx'
 import SecondaryButton from '../../components/SecondaryButton/SecondaryButton.jsx'
@@ -18,7 +16,7 @@ export default function Results({ href, proofs, title, uxcase }) {
       <section className={styles.Results__Buttons}>
 
         { (href) && <MainButton message="View project" onClick={ () => goTo(href) } /> }
-        { (uxcase) && <SecondaryButton message={'UX Case'} /> }
+        { (uxcase) && <SecondaryButton message={'UX Case'} onClick={ () => goTo( uxcase ) } /> }
         
       </section>
 
