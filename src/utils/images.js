@@ -38,7 +38,8 @@ const google_pm = 'https://images.credly.com/images/771cff46-3573-4d12-bfd8-5287
 const google_ux = 'https://i0.wp.com/www.neverlandseeker.com/wp-content/uploads/2021/09/Google-UX-Design-Credly-Certificate.png'
 const sks_ia = 'https://images.credly.com/size/340x340/images/82b908e1-fdcd-4785-9d32-97f11ccbcf08/image.png'
 const designThinkingPractitioner = 'https://images.credly.com/size/340x340/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png'
-const sks_agile = 'https://images.credly.com/size/340x340/images/3b7846e2-bdbd-4ed6-8543-182f47502190/image.png'
+const sks_agile = 'https://images.credly.com/size/340x340/images/a972f054-be07-4845-85c7-95c8d11852f5/IBM-Agile-Explorer.png'
+const oreilly_git = 'https://images.credly.com/size/340x340/images/4a35c226-b5a6-49d9-b6e4-fe068a55ca36/798d4a2d-8269-483c-bd4b-85bf49473523.png'
 const sks_workingInADigitalWorld = 'https://images.credly.com/size/340x340/images/4f76c627-c180-49ae-a5a0-742885eef581/Working_in_a_Digital_World-_Professional_Skills.png'
 const ccna_itn = 'https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png'
 
@@ -87,5 +88,6 @@ export const externalImages = {
     designThinkingPractitioner,
     ccna_itn,
     sks_agile,
+    oreilly_git,
     sks_workingInADigitalWorld
 }

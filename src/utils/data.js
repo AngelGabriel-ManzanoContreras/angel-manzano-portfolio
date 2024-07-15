@@ -157,9 +157,15 @@ export const education = [
   {
     cert: 'Google Professional Certificate User Exeprience (UX) Design',
     org: 'Google - Coursera',
-    current: true,
     image: externalImages.google_ux,
     skills: [ 'User Experience', 'User Research', 'User-centered Design', 'User Interface' ]
+  },
+  {
+    cert: 'Git Essentials',
+    org: `O'Reilly Media`,
+    badge: 'https://www.credly.com/badges/664a764c-55b8-4bbf-88e8-11c52838ad3b',
+    image: externalImages.oreilly_git,
+    skills: [ 'Git', 'Github', 'Version Control', 'Software Collaboration' ]
   },
   {
     cert: 'Artificial Intelligence Fundamentals',
@@ -183,11 +189,11 @@ export const education = [
     skills: [ 'Network Fundamentals', 'Ethernet', 'IPv4 and IPv6 Addressing', 'IP Connectivity' ]
   },
   {
-    cert: 'Agile Explorer',
+    cert: 'IBM Agile Explorer',
     org: 'IBM - SkillsBuild',
-    badge: 'https://www.credly.com/badges/c1afc90d-beea-4859-ad22-00e46a0c1f40/public_url',
+    badge: 'https://www.credly.com/badges/2c92f743-0d57-459a-95e3-c8e7fc44d974',
     image: externalImages.sks_agile,
-    skills: [ 'Collaboration', 'Agile Methodology', 'Scrum methodology', 'Iterations' ]
+    skills: [ 'Agile Operations', 'Scrum methodology', 'Sprints', 'Iterations' ]
   },
   {
     cert: 'Working in a Digital World',
@@ -280,5 +286,8 @@ export const projectsData = {
       proofs: makhaiImages,
       href: 'https://hotel-makhai-nayarit.000webhostapp.com/'
     }
-  }
+  },
+  'Buying Tickets' : {},
+  'Store Finding' : {},
+  'Plan Smart' : {},
 }
