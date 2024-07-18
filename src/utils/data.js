@@ -1,47 +1,26 @@
-import linkedin from '../assets/icons/linkedin.svg'
-import gmail from '../assets/icons/google.svg'
-import github from '../assets/icons/github.svg'
-
-import figma from '../assets/icons/figma.svg'
-import css from '../assets/icons/css.svg'
-import python from '../assets/icons/python.svg'
-import django from '../assets/icons/django.svg'
-import next from '../assets/icons/nextjs.svg'
-import react_svg from '../assets/icons/react.svg'
-import php from '../assets/icons/Php.svg'
-import html from '../assets/icons/html5.svg'
-import mysql from '../assets/icons/mysql.svg'
-import git from '../assets/icons/git.svg'
-import javascript from '../assets/icons/javascript.svg'
-
-//littleSites
-import littlesites1 from '../assets/imgs/projects/littlesites/littlesites.jpg'
-import littlesites2 from '../assets/imgs/projects/littlesites/littlesites-landing.jpg'
-import littlesites3 from '../assets/imgs/projects/littlesites/littlesites-figma.png'
-import littlesites4 from '../assets/imgs/projects/littlesites/littlesites-figjam.png'
-
-// Makhai
-import makhai1 from '../assets/imgs/projects/makhai/makhai-index.jpeg'
-import makhai2 from '../assets/imgs/projects/makhai/makhai-habitaciones.jpeg'
-import makhai3 from '../assets/imgs/projects/makhai/makhai-eventos.jpeg'
-import makhai4 from '../assets/imgs/projects/makhai/makhai-gestion.jpeg'
-import makhai5 from '../assets/imgs/projects/makhai/makhai-gestion2.jpeg'
+import { icons, makhaiImages, littlesitesImages, externalImages } from './images.js'
+import { pdfs } from './pdfs.js'
 
 export const profiles = [
   {
-    img: linkedin,
+    img: icons.linkedin,
     name: 'LinkedIn - Angel Gabriel Manzano Contreras',
     link: 'https://www.linkedin.com/in/angel-gabriel-manzano-contreras/'
   },
   {
-    img: gmail,
+    img: icons.gmail,
     name: 'Gmail - Angel Gabriel Manzano Contreras',
     link: 'mailto:amanzanocontreras@gmail.com'
   },
   {
-    img: github,
+    img: icons.github,
     name: 'GitHub - Angel Gabriel Manzano Contreras',
     link: 'https://github.com/AngelGabriel-ManzanoContreras'
+  },
+  {
+    img: icons.cv_icon,
+    name: 'CV - Angel Gabriel Manzano Contreras',
+    link: pdfs.angelCV
   }
 ]
 
@@ -72,40 +51,52 @@ export const skills = {
   technical : [ 
     {
       name: 'Figma',
-      img: figma
+      img: icons.figma
     },
     {
       name: 'HTML5',
-      img: html
+      img: icons.html
     },
     {
       name: 'CSS3',
-      img: css
+      img: icons.css
     },
     {
-      name: 'Javascript',
-      img: javascript
+      name: 'Java',
+      img: icons.java
+    },
+    {
+      name: 'JavaScript',
+      img: icons.javascript
+    },
+    {
+      name: 'TypeScript',
+      img: icons.typescript
+    },
+    {
+      name: 'Golang',
+      img: icons.golang
     },
     {
       name: 'React',
-      img: react_svg
+      img: icons.react_svg
     },
     {
       name: 'MySQL',
-      img: mysql
+      img: icons.mysql
     },
     {
       name: 'Git',
-      img: git
+      img: icons.git
     },
     {
       name: 'Github',
-      img: github
+      img: icons.github
     },
     {
       name: 'Python',
-      img: python
-    }
+      img: icons.python
+    },
   ],
   professional : [
     {
@@ -128,10 +119,10 @@ export const skills = {
       name: 'Empathy',
       img: 'https://th.bing.com/th/id/R.5be7f33267c467e050a08d5a662ac702?rik=UmBMYIF2AaPbVA&riu=http%3a%2f%2fclipartmag.com%2fimages%2fempathy-clipart-36.png&ehk=SRj2bKMhmrSnnV8pWkgckXCMJW0wwpOqkWgrFGQ00Hw%3d&risl=&pid=ImgRaw&r=0'
     },
-    {
-      name: 'Creativity',
-      img: 'https://cdn4.iconfinder.com/data/icons/media-advertising-gray/64/CREATIVITY-1024.png'
-    },
+    // {
+    //   name: 'Creativity',
+    //   img: 'https://cdn4.iconfinder.com/data/icons/media-advertising-gray/64/CREATIVITY-1024.png'
+    // },
     {
       name: 'Critical Thinking',
       img: 'https://cdn2.iconfinder.com/data/icons/office-and-business-lineal-color-smart-start/512/critical_thinking-1024.png'
@@ -152,123 +143,119 @@ export const education = [
     cert: 'Higher university technician in computer systems',
     org: 'PTECH - IBM - JA Worldwide',
     current: true,
-    image: 'https://pbs.twimg.com/profile_images/1216830335687843845/VteYO_S9_400x400.jpg',
+    image: externalImages.ptech,
     skills: [ 'Programming', 'Web Development', 'Networking', 'Project Management' ]
   },
   {
     cert: 'Professional Technologist in Computer Systems',
     org: 'Escuela Politecnica de Guadalajara - UdeG',
     current: true,
-    image: 'https://th.bing.com/th/id/R.f5fc81c37f06c10be4b9ea29063f0e54?rik=XQJSBXiuDLPGXA&riu=http%3a%2f%2fpolitecnica.sems.udg.mx%2frevista%2flineamientos%2fassets%2fimg%2ffind_user.png&ehk=oD5PoLZ%2bCeBYZevld7NDUXsgvh9q5Ic9NK1KoqwOhBo%3d&risl=&pid=ImgRaw&r=0',
+    image: externalImages.udeg,
     skills: [ 'Programming', 'Web Development', 'Networking', 'Project Management' ]
   },
   {
     cert: 'Google Professional Certificate Project Management',
     org: 'Google - Coursera',
     current: true,
-    image: 'https://images.credly.com/images/771cff46-3573-4d12-bfd8-528745f00957/GCC_badge_PGM_1000x1000.png',
-    skills: [ 'Project Management', 'Project Planning', 'Project Scheduling', 'Project Budgeting' ]
+    image: externalImages.google_pm,
+    skills: [ 'Project Management', 'Project Planning', 'Project Scheduling', 'Agile Project Management' ]
   },
   {
     cert: 'Google Professional Certificate User Exeprience (UX) Design',
     org: 'Google - Coursera',
-    current: true,
-    image: 'https://i0.wp.com/www.neverlandseeker.com/wp-content/uploads/2021/09/Google-UX-Design-Credly-Certificate.png',
-    skills: [ 'User Experience', 'User Research', 'User-centered Design', 'User Interface' ]
+    badge: 'https://coursera.org/verify/professional-cert/M7GX5AD5SDXU',
+    image: externalImages.google_ux,
+    skills: [ 'User Experience', 'User Research', 'User-centered Design', 'User Interface Design' ]
+  },
+  {
+    cert: 'Git Essentials',
+    org: `O'Reilly Media`,
+    badge: 'https://www.credly.com/badges/664a764c-55b8-4bbf-88e8-11c52838ad3b',
+    image: externalImages.oreilly_git,
+    skills: [ 'Git', 'Github', 'Version Control', 'Software Collaboration' ]
   },
   {
     cert: 'Artificial Intelligence Fundamentals',
     org: 'IBM - SkillsBuild',
     badge: 'https://www.credly.com/badges/df7ecc00-e6cf-4e07-8f03-b2ab446d8309/public_url',
-    image: 'https://images.credly.com/size/340x340/images/82b908e1-fdcd-4785-9d32-97f11ccbcf08/image.png',
+    image: externalImages.sks_ia,
     skills: [ 'Artificial Intelligense', 'AI Applications', 'AI Capabilities', 'AI Ethics' ]
   },
   {
     cert: 'Enterprise Design Thinking Practitioner',
     org: 'IBM',
     badge: 'https://www.credly.com/badges/779b1a70-904a-408f-8575-d10ccb154158/public_url',
-    image: 'https://images.credly.com/size/340x340/images/bc08972c-3c7d-4b99-82a0-c94bcca36674/Badges_v8-07_Practitioner.png',
+    image: externalImages.designThinkingPractitioner,
     skills: [ 'Experience Design', 'User-centered Design', 'User Experience', 'User Research' ]
-  },
-  {
-    cert: 'Basic Principles of Design',
-    org: 'IBM - SkillsBuild',
-    badge: 'https://www.credly.com/badges/50a0200e-d282-44ef-8e52-b18e51aee455/public_url',
-    image: 'https://images.credly.com/size/340x340/images/13ba6d71-e938-4fc0-a341-b0c7df45c095/Basic_Principles_of_Design.png',
-    skills: [ 'Design Elements and Principles', 'Design Practices', 'Visual Design', 'Creativity' ]
   },
   {
     cert: 'CCNA: Introduction to Networks',
     org: 'Cisco',
     badge: 'https://www.credly.com/badges/8dcf4dc8-41e7-4b1f-896c-9926505509fe/public_url',
-    image: 'https://images.credly.com/size/340x340/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png',
+    image: externalImages.ccna_itn,
     skills: [ 'Network Fundamentals', 'Ethernet', 'IPv4 and IPv6 Addressing', 'IP Connectivity' ]
   },
   {
-    cert: 'Agile Explorer',
+    cert: 'IBM Agile Explorer',
     org: 'IBM - SkillsBuild',
-    badge: 'https://www.credly.com/badges/c1afc90d-beea-4859-ad22-00e46a0c1f40/public_url',
-    image: 'https://images.credly.com/size/340x340/images/3b7846e2-bdbd-4ed6-8543-182f47502190/image.png',
-    skills: [ 'Collaboration', 'Agile Methodology', 'Scrum methodology', 'Iterations' ]
+    badge: 'https://www.credly.com/badges/2c92f743-0d57-459a-95e3-c8e7fc44d974',
+    image: externalImages.sks_agile,
+    skills: [ 'Agile Operations', 'Scrum methodology', 'Sprints', 'Iterations' ]
   },
   {
     cert: 'Working in a Digital World',
     org: 'IBM - SkillsBuild',
     badge: 'https://www.credly.com/badges/fef651be-a916-46ad-a071-15e04a5a139b/public_url',
-    image: 'https://images.credly.com/size/340x340/images/4f76c627-c180-49ae-a5a0-742885eef581/Working_in_a_Digital_World-_Professional_Skills.png',
+    image: externalImages.sks_workingInADigitalWorld,
     skills: [ 'Creative and Critical Thinking', 'Interpersonal Communication', 'Problem Solving', 'Team Collaboration' ]
   }
 ]
 
 export const projectsData = {
-  'Sites' : {
+  'sites' : {
     head : {
       title: 'Sites',
       slogan: 'Cafesito con pan',
-      img:littlesites2
+      img: littlesitesImages[0]
     },
     problem : 'My team and I were looking to address the problem of SMEs (PyMEs) not having a website. We wanted a platform where they could create their own website with a few clicks and a little help from us. We wanted to make it easy for them to have a website and be able to manage it themselves.',
     task: 'As UI Designer, I had to build an intuitive and pleasant Interface where the users were able to input their information and see their Landing page. Later on, I had to correct some CSS styles to accomplish what was planned and help with the website\'s backend development. Currently, only the Landing page is available, but the rest of the website is under development.',
     tools: [
       {
         name: 'Figma',
-        img: figma
+        img: icons.figma
       },
       {
         name: 'CSS3',
-        img: css
-      },
-      {
-        name: 'React',
-        img: react_svg
+        img: icons.css
       },
       {
         name: 'Next',
-        img: next
+        img: icons.next
       },
       {
         name: 'Django',
-        img: django
+        img: icons.django
       },
       {
         name: 'PHP',
-        img: php
+        img: icons.php
       },
       {
         name: 'MySQL',
-        img: mysql
+        img: icons.mysql
       },
       {
         name: 'Git',
-        img: git
+        img: icons.git
       },
       {
         name: 'Github',
-        img: github
+        img: icons.github
       }
     ],
     results: {
-      proofs: [ littlesites2, littlesites3, littlesites4, littlesites1 ],
+      proofs: littlesitesImages,
       href: 'https://github.com/LittleSites/UI-CLIENT-NextJS'
     }
   },
@@ -276,34 +263,34 @@ export const projectsData = {
     head: {
       title: 'Makhai',
       slogan: 'Schoolar project',
-      img: makhai1
+      img: makhaiImages[0]
     },
     problem: 'My team and I were asked to build a website for a Hotel where they could show their rooms, events, and activities. Also, make Room reservations and Logistic administration possible.',
     task: 'As my team\'s Product Owner, I was responsible for structuring the Team\'s backlog, task relegation, and handing deliverables weekly. In addition, I was responsible for debugging and refactoring front-end code, creating the website\'s back-end, and deploying the website.',
     tools: [
       {
         name: 'HTML5',
-        img: html
+        img: icons.html
       },
       {
         name: 'CSS3',
-        img: css
+        img: icons.css
       },
       {
         name: 'Javascript',
-        img: javascript
+        img: icons.javascript
       },
       {
         name: 'PHP',
-        img: php
+        img: icons.php
       },
       {
         name: 'MySQL',
-        img: mysql
+        img: icons.mysql
       }
     ],
     results: {
-      proofs: [ makhai1, makhai2, makhai3, makhai4, makhai5 ],
+      proofs: makhaiImages,
       href: 'https://hotel-makhai-nayarit.000webhostapp.com/'
     }
   }
