@@ -1,73 +1,10 @@
-.Home {
-  height: 100dvh;
-  width: 100dvw;
-  background-color: var(--project-gray);
-  margin-top: 0;
-  padding: var(--page-padding);
-  display: flex;
-  align-items: center;
-}
-
-.Home > section {
-  width: 50%;
-  height: 50%;
-  float: left;
-}
-
-.Home__Introduction {
+.main {
+  margin-top: 4rem;
+  height: calc(100dvh - 4rem);
+  scroll-behavior: smooth;
+  overflow: hidden scroll;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-
-  padding: var(--box-padding);
-  color: var(--project-white);
-}
-
-.Home__Introduction > h1 {
-  font-size: clamp(3.5rem, 10vw, 5rem);
-  transition: 1s;
-  letter-spacing: .5rem;
-
-  width: fit-content;
-}
-
-.Home__Introduction > h3 {
-  letter-spacing: 3px;
-  font-style: italic;
-}
-
-.Home__Buttons {
-  padding: var(--box-padding);
-  display: grid;
-  grid-template-columns: 100%;
   align-items: center;
-  justify-items: center;
-}
-
-.Home__Buttons > button {
-  width: 90% !important;
-}
-
-@media screen and (max-width: 850px) {
-  .Home {
-    flex-direction: column;
-  }
-  
-  .Home__Introduction {
-    width: 100%;
-    align-items: center;
-  }
-  
-  .Home__Introduction > h1 {
-    text-align: center;
-  }
-
-  .Home__Buttons {
-    width: 100% !important;
-  }
-
-  .Home__Buttons > button {
-    width: 80% !important;
-  }
+  gap: 1rem;
 }
