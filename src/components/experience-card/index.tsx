@@ -1,5 +1,3 @@
-'use client';
-
 import useExperienceCard from './useExperienceCard';
 import { IExperienceCard } from './Iexperience-card';
 

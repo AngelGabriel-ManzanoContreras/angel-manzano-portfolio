@@ -1,14 +1,13 @@
-'use client';
 import { useParams, useNavigate } from "react-router-dom";
 
 import { projects } from "@/data/data"
 
 import styles from "./project.module.css"
-import Introduction from "@/sections/(project)/introduction"
-import Summary from "@/sections/(project)/summary"
-import Contribution from "@/sections/(project)/contribution"
-import Tools from "@/sections/(project)/tools"
-import { ITool } from "@/sections/(project)/tools/Itools";
+import Introduction from "@sections/(project)/introduction"
+import Summary from "@sections/(project)/summary"
+import Contribution from "@sections/(project)/contribution"
+import Tools from "@sections/(project)/tools"
+import { ITool } from "@sections/(project)/tools/Itools";
 
 export default function page() {
   const { project } = useParams();

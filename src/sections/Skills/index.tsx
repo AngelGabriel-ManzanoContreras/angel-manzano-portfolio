@@ -1,10 +1,9 @@
-'use client'
 import { useEffect, useState } from 'react'
 
 import { skills } from '@/data/data';
 
 import styles from './skills.module.css'
-import Skill from '@/components/skill';
+import Skill from '@components/skill';
 
 export default function Skills() {
   const [ category, setCategory ] = useState( '' );
