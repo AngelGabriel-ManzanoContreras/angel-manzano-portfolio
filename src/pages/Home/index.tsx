@@ -1,9 +1,9 @@
 import styles from './home.module.css';
 
 import About from "@sections/about";
-import Skills from "@sections/skills";
+import Skills from "@sections/Skills";
 import Experience from "@sections/experience";
-import Education from "@sections/education";
+import Education from "@sections/Education";
 import Projects from "@sections/projects";
 import Contact from "@sections/contact";
 

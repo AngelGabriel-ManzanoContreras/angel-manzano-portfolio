@@ -6,7 +6,7 @@ import menuIcon from "@assets/icons/menu.webp";
 import xIcon from "@assets/icons/x.webp";
 
 import WideNavbar from "@components/wide-navbar";
-import Navbar from "@components/navbar";
+import Navbar from "@components/Navbar";
 
 export default function Header() {
   const { menuOpen, handleMenu, mobile } = useHeader();
