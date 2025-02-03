@@ -1,10 +1,8 @@
-import Image from "next/image"
-
 import { IContribution } from "./Icontribution"
 import useContribution from "./useContribution";
 
 import styles from "./contribution.module.css"
-import MainButton from "@/src/components/main-button"
+import MainButton from "@/components/main-button"
 
 export default function index({ description, workSamples, url, uxcase } : IContribution) {
   const { currentSample, currentPosition, viewMore, handleClick } = useContribution();
@@ -22,9 +20,8 @@ export default function index({ description, workSamples, url, uxcase } : IContr
         <figure className={ styles[`contribution__carousel`] }>
           {
             workSamples.map((sample, index) => (
-              <Image
+              <img
                 key={ index }
-                fill={ true}
                 className={ styles[`contribution__work-sample`] }
                 style={ currentPosition }
                 src={ sample }

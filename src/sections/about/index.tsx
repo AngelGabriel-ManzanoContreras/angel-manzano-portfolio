@@ -1,10 +1,11 @@
 'use client';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import styles from './about.module.css';
-import MainButton from '@/components/main-button';
+import MainButton from '@components/main-button';
 
-import myImage from '@/assets/imgs/angel.webp';
+import myImage from '@assets/imgs/angel.webp';
 
 export default function index() {
   const navigator = useNavigate()

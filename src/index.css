@@ -45,10 +45,6 @@ body {
   background: var(--background-color);
 }
 
-main {
-  margin-top: 4rem;
-}
-
 ::-webkit-scrollbar {
   width: 1rem; /* Mostly for vertical scrollbars */
   height: 1rem; /* Mostly for horizontal scrollbars */
@@ -61,6 +57,12 @@ main {
 ::-webkit-scrollbar-track { /* Background */
   background: var(--section-container);
   border-radius: 0;
+}
+
+@media  screen and (max-width: 768px) {
+  :root {
+    --page-padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {

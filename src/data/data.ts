@@ -32,6 +32,11 @@ export const skills = [
     category: 'professional'
   },
   {
+    name: 'Bash',
+    img: icons.bash,
+    category: 'technical'
+  },
+  {
     name: 'Communication',
     img: icons.communication,
     category: 'professional'
@@ -84,6 +89,11 @@ export const skills = [
   {
     name: 'JavaScript',
     img: icons.javascript,
+    category: 'technical'
+  },
+  {
+    name: 'Linux CLI',
+    img: icons.linux,
     category: 'technical'
   },
   {

@@ -3,13 +3,14 @@
   width: 7.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
 .contact-icon img {
-  width: 100%;
-  height: 100%;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .contact-icon:hover .contact-icon__message {

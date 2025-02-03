@@ -16,6 +16,8 @@ import javascript from '@/assets/icons/javascript.svg'
 import typescript from '@/assets/icons/typescript.svg'
 import java from '@/assets/icons/java.svg'
 import golang from '@/assets/icons/golang_dark.svg'
+import linux from '@/assets/icons/linux.svg'
+import bash from '@/assets/icons/bash_dark.svg'
 
 import slack from '@/assets/icons/slack.svg'
 import ibm from '@/assets/imgs/education/ibm.webp'
@@ -75,6 +77,8 @@ export const icons = {
     html,
     mysql,
     git,
+    linux,
+    bash,
     javascript,
     typescript,
     java,

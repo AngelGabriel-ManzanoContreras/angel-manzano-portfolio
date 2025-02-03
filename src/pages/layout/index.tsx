@@ -1,10 +1,4 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-import "./globals.css";
-import Header from "@/src/components/header";
-
-const inter = Inter({ subsets: ["latin"] });
+import Header from "@components/header";
 
 export const metadata: Metadata = {
   title: "Angel Manzano - Software Developer Portfolio",
@@ -26,11 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
-      </body>
-    </html>
+    <>
+      <Header />
+      {children}
+    </>
   );
 }

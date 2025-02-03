@@ -1,9 +1,9 @@
 .navbar {
-  top: calc( ( 35dvh + 4rem ) * -1 );
+  top: calc( ( 75dvh + 4rem ) * -1 );
   position: absolute;
   width: 100dvw;
   right: 0;
-  height: 35dvh;
+  height: unset;
   background-color: var(--section-container);
   padding: var(--page-gap);
   box-shadow: var(--container-shadow);

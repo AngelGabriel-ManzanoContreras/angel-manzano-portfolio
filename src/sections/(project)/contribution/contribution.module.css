@@ -36,9 +36,8 @@
 .contribution__carousel {
   position: relative;
   width: calc( 90dvw - var(--page-padding) );
-  /* height: calc( 90dvh - var(--page-padding) ); */
+  height: calc( 90dvh - var(--page-padding) );
   height: auto;
-  aspect-ratio: 16 / 9;
 
   display: flex;
   align-items: center;
@@ -46,12 +45,12 @@
 }
 
 .contribution__work-sample {
-  position: unset !important;
+  /* position: unset !important; */
   min-width: 100%;
-  width: 100%;
+  aspect-ratio: 16 / 9;
+  /* width: 100%; */
   height: 100%;
   object-fit: contain;
-  aspect-ratio: 16 / 9;
 }
 
 .contribution__dashes {

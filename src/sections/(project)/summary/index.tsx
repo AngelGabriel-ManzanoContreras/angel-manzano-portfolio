@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 import { ISummary } from "./Isummary"
 
 import styles from "./summary.module.css"
@@ -15,7 +13,7 @@ export default function index({ summary } : ISummary) {
         <pre className={ styles[`project-summary__summary`]}>{ summary }</pre>
 
         <figure className={ styles[`project-summary__image`] }>
-          <Image 
+          <img
             src={ helperImage }
             alt="Project Summary"
             fill={ true }

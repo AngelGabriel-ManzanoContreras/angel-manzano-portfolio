@@ -1,0 +1,9 @@
+.project-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow: hidden scroll;
+    gap: 1rem;
+    margin-top: 4rem;
+  }

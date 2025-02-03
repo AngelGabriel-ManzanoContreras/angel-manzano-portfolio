@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { IIntroduction } from './Iintroduction'
 
 import styles from './introduction.module.css'
@@ -20,10 +18,9 @@ export default function index({ title, fragment, img, jobrole } : IIntroduction)
         </div>
 
         <figure className={ styles[`introduction__image`] }>
-          <Image 
+          <img
             src={ img }
             alt={ title}
-            fill={true}
           />
         </figure>
       </section>
