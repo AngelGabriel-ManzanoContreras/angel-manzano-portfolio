@@ -1,7 +1,7 @@
 // "use client";
 import useHeader from "./useHeader";
 
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
 import menuIcon from "@assets/icons/menu.webp";
 import xIcon from "@assets/icons/x.webp";
 

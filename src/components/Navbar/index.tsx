@@ -3,7 +3,7 @@ import useNavbar from './useNavbar';
 
 import NavbarItem from '../navbar-item';
 
-import styles from './navbar.module.css'
+import styles from './Navbar.module.css'
 
 export default function index({ menuOpen, closeMenu } : INavbar) {
   useNavbar( menuOpen );

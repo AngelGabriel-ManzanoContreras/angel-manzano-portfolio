@@ -1,6 +1,6 @@
 import { education } from '@data/data';
 
-import styles from './education.module.css';
+import styles from './Education.module.css';
 import ExperienceCard from '@components/experience-card';
 
 export default function index() {

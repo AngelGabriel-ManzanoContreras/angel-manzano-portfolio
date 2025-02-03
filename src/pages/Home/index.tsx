@@ -1,4 +1,4 @@
-import styles from './home.module.css';
+import styles from './Home.module.css';
 
 import About from "@sections/about";
 import Skills from "@sections/Skills";
