@@ -1,5 +1,3 @@
-'use client';
-
 import { INavbar } from './Inavbar';
 import useNavbar from './useNavbar';
 

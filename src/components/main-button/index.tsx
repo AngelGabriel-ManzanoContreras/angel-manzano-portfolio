@@ -1,5 +1,3 @@
-'use client';
-
 import { IMainButton } from './Imainbutton';
 
 import styles from './main-button.module.css';

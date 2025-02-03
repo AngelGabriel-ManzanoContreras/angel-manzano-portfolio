@@ -1,4 +1,3 @@
-'use client';
 import { useNavigate } from 'react-router-dom';
 
 import { IProjectCard } from './Iproject-card'

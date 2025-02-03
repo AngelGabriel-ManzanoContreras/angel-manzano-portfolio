@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import useHeader from "./useHeader";
 
 import styles from "./header.module.css";
