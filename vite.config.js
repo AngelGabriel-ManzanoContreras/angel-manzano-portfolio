@@ -12,27 +12,27 @@ export default defineConfig({
     alias: [
       {
         find: '@', // Add this alias for '@'
-        replacement: path.resolve(__dirname, 'src'),
+        replacement: path.resolve(__dirname, './src'),
       },
       {
         find: '@components',
-        replacement: path.resolve(__dirname, 'src/components'),
+        replacement: path.resolve(__dirname, './src/components'),
       },
       {
         find: '@assets',
-        replacement: path.resolve(__dirname, 'src/assets'),
+        replacement: path.resolve(__dirname, './src/assets'),
       },
       {
         find: '@sections',
-        replacement: path.resolve(__dirname, 'src/sections'),
+        replacement: path.resolve(__dirname, './src/sections'),
       },
       {
         find: '@pages',
-        replacement: path.resolve(__dirname, 'src/pages'),
+        replacement: path.resolve(__dirname, './src/pages'),
       },
       {
         find: '@data',
-        replacement: path.resolve(__dirname, 'src/data')
+        replacement: path.resolve(__dirname, './src/data')
       }
     ],
   },
