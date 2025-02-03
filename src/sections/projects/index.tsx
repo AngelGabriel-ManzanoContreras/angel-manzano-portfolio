@@ -1,7 +1,7 @@
-import { projects } from '@/data/data';
+import { projects } from '@data/data';
 
 import styles from './projects.module.css'
-import ProjectCard from '@/components/project-card';
+import ProjectCard from '@components/project-card';
 
 export default function index() {
   return (

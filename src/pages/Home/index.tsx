@@ -7,7 +7,7 @@ import Education from "@sections/education";
 import Projects from "@sections/projects";
 import Contact from "@sections/contact";
 
-export default function Home() {
+export default function index() {
   return (
     <main className={styles.main}>
       <About />

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { skills } from '@/data/data';
+import { skills } from '@data/data';
 
 import styles from './skills.module.css'
 import Skill from '@components/skill';

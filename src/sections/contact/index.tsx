@@ -1,7 +1,7 @@
-import { profiles } from '@/data/data';
+import { profiles } from '@data/data';
 
 import styles from './contact.module.css';
-import ContactIcon from '@/components/contact-icon';
+import ContactIcon from '@components/contact-icon';
 
 export default function index() {
   return (

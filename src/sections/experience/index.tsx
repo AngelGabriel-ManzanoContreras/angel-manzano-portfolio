@@ -1,7 +1,7 @@
-import { experience } from '@/data/data';
+import { experience } from '@data/data';
 
 import styles from './experience.module.css';
-import ExperienceCard from '@/components/experience-card'
+import ExperienceCard from '@components/experience-card'
 
 export default function index() {
   return (

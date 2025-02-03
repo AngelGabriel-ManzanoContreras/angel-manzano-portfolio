@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { IProjectCard } from './Iproject-card'
 
 import styles from './project-card.module.css'
-import MainButton from '@/components/main-button'
+import MainButton from '@components/main-button'
 
 export default function index({ url, title, fragment, jobrole, img } : IProjectCard) {
   const navigateTo = useNavigate()

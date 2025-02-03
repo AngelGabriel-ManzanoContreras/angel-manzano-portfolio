@@ -2,7 +2,7 @@ import useExperienceCard from './useExperienceCard';
 import { IExperienceCard } from './Iexperience-card';
 
 import styles from './experience.module.css';
-import MainButton from '@/components/main-button';
+import MainButton from '@components/main-button';
 
 export default function index({ title, duration, ubication, company, image, description, badge } : IExperienceCard) {
   const { isLargeScreen, cardStyle, goToCertificate, onCardClick } = useExperienceCard( badge );
