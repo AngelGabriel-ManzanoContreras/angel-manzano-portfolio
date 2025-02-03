@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Home from '@/pages/home'
-import Layout from '@/pages/Layout'
-import Project from '@/pages/project'
+import Home from '@pages/home'
+import Layout from '@pages/Layout'
+import Project from '@pages/project'
 // import NotFound from './pages/NotFound/NotFound.jsx'
 
 const App = () => {
