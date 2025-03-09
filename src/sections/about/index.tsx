@@ -10,6 +10,10 @@ export default function index() {
 
   const goToContact = () => {
     navigator('/#contact');
+    const contactSection = document.querySelector('#contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
   const paragraph = `Computer Science Student | P-TECH (IBM) - 2nd Generation
