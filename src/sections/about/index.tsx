@@ -12,7 +12,11 @@ export default function index() {
     navigator('/#contact');
     const contactSection = document.querySelector('#contact');
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+      // contactSection.scrollIntoView({ behavior: 'smooth' });
+      const li = document.createElement('a');
+      li.href = '#contact';
+      document.body.appendChild(li);
+      li.click();
     }
   }
 
